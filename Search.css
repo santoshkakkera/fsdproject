@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.body{
+    background-color: #eef4fd;
+}
+
+
+.maindiv{
+    border: 2px solid rgb(21, 196, 123);
+    height: 70px;
+    display: flex;
+    background-color: rgb(21, 196, 123);
+    margin-bottom: 30px;
+}
+
+
+.fromdiv{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    margin-left: 15%;
+    margin-top: 3px;
+}
+
+
+#swapimage{
+    height: 30px;
+    width: 90px;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+
+.todiv{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    margin-left: 3%;
+    margin-top: 3px;
+}
+
+
+.datediv{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    margin-left: 11%;
+    margin-top: 3px;
+}
+
+
+#fromlabel,#tolabel,#datelabel{
+    color: red;
+}
+
+
+#from,#to,#date{
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.updatebutton{
+    margin-left: 9%;
+    margin-top: 16px;
+    margin-bottom: 1.3%;
+}
+
+#update{
+    border: 2px solid none;
+    border-radius: 10px;
+    width: 190px;
+    height: 40px;
+    background-color: orange;
+    font-size: 110%;
+    cursor: pointer;
+}
+
+
+.mainbox{
+    display: flex;
+    height: fit-content;
+}
+
+.filters{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: fit-content;
+    width: 20%;
+    margin-left: 15%;   
+}
+
+
+.filterdiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+#h2{
+    margin-left: 20px;
+}
+
+
+.clearall{
+    margin-top: 9px;
+    margin-right: 7px;
+}
+
+#clearbutton{
+    color: red;
+    cursor: pointer;
+}
+
+
+.quick,.quota,.class,.departure,.arrival,.departurestation,.arrivalstation{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#details{
+    margin-left: 9px;
+    padding: 0px 0px 20px 0px;
+}
+
+
+#resetbutton{
+    margin-top: 0px;
+    color: red;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+    background-color: #eef4fd;
+    font-size: 90%;
+}
+
+
+.lastreset{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.line{
+    height: auto;
+    border: 1px solid rgb(194,193,193);
+    background-color: black;
+}
+
+
+.trainsdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sorting{
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex; 
+    height: 50px;
+    margin-left: 40px; 
+    margin-top: 10px;
+    background-color: white;
+    margin-bottom: 20px;  
+}
+
+
+#sortby{
+    margin-left: 10px;
+}
+
+
+#fastest,#arrivaltime,#departuretime,#availability{
+    margin-left: 90px;
+    font-size: 110%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: blue;
+} 
+
+
+.train1{
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left: 40px;
+    height: fit-content;
+}
+
+
+#nearbystation{
+    margin-left: 25px;
+    width: 14%;
+}
+
+#trainname{
+    margin-left: 25px;
+    width: 30%;
+}
+
+
+#weeks{
+    margin-left: 25px;
+    width: 43%;
+}
+
+
+#traintimetable{
+    text-decoration: none;
+}
+
+
+.date{
+    margin-left: 21px;
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sourcetime{
+    width: 9%;
+}
+
+
+.destinationtime{
+    width: 11%;
+    position: absolute;
+    right: 0px;
+}
+
+
+.tickets{
+    height: 150px;
+}
+
+
+.ticket1{
+    border: 2px solid green;
+    border-radius: 10px;
+    height: 145px;
+    margin-top: 10px;   
+    width: 32%;
+    margin-left: 10px;
+}
+
+
+.toprow{
+    display: flex;
+}
+
+
+#class,#ticketsavailable{
+    text-align: center;
+    font-size: 110%;
+    margin-left: 10px;
+}
+
+
+#ticketsavailable{
+    margin-left: 110px;
+}
+
+
+
+.category{
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+}
+
+
+#cost{
+    margin-left: 150px;
+}
+
+
+#cancel{
+    text-align: center;
+}
+
+

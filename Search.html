@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/Search.css">
+</head>
+
+
+<body class="body">
+
+    <div class="container maindiv">
+       <div class="fromdiv">
+           <label for="from" id="fromlabel">From</label>
+           <input type="text" id="from" name="from" placeholder="Select Station/City Name">
+       </div>
+
+       
+           <img src="IMAGES/Swap.jpg" id="swapimage">
+
+       <div class="todiv">
+           <label for="to" id="tolabel">To</label>
+           <input type="text" id="to" name="to" placeholder="Select Station/City Name">
+       </div>
+
+       <div class="datediv">
+           <label for="date" id="datelabel">Date</label>
+           <input type="date" id="date" name="date">
+       </div>
+
+       <div class="updatebutton">
+           <button type="submit" id="update">Update Search</button> 
+       </div>
+
+    </div>
+
+
+
+    <div class="mainbox">
+        <div class="container filters">
+            <div class="filterdiv">
+                <h2 id="h2">Filters</h2>
+                
+                <div class="clearall">
+                    <p id="clearbutton">Clear All</p>
+                </div>
+            </div>
+    
+            <br>
+    
+            <div class="quick">
+                 <details id="details" open>
+                     <summary>Quick Filters</summary><br>
+                     <input type="checkbox" id="aconly" name="aconly">
+                     <label for="aconly">AC Only</label><br>
+    
+                     <input type="checkbox" id="availableonly" name="availableonly">
+                     <label for="availableonly">Available Only</label><br>
+    
+                     <input type="checkbox" id="aftersix" name="aftersix">
+                     <label for="aftersix">Train Depart(After 6pm)</label>
+                 </details>
+    
+                 <div class="reset">
+                    <button type="reset" id="resetbutton" value="reset">Reset</button>
+                 </div>
+            </div>
+    
+            <div class="line"></div>
+    
+            <div class="quota">
+                <details id="details" open>
+                    <summary>Quota</summary><br>
+                    <input type="radio" id="general" name="quota">
+                    <label for="general">General</label><br>
+    
+                    <input type="radio" id="ladies" name="quota">
+                    <label for="ladies">Ladies</label><br>
+    
+                    <input type="radio" id="tatkal" name="quota">
+                    <label for="tatkal">Tatkal</label>
+                </details>
+    
+                <div class="reset">
+                    <button type="reset" id="resetbutton" value="reset">Reset</button>
+                </div>
+           </div>
+    
+           <div class="line"></div>
+    
+           <div class="class">
+                <details id="details" open>
+                    <summary>Class</summary><br>
+                    <input type="checkbox" id="1a" name="1a">
+                    <label for="1a">1A</label><br>
+    
+                    <input type="checkbox" id="2a" name="2a">
+                    <label for="2a">2A</label><br>
+    
+                    <input type="checkbox" id="3a" name="3a">
+                    <label for="3a">3A</label><br>
+    
+                    <input type="checkbox" id="sl" name="sl">
+                    <label for="sl">SL</label><br>
+    
+                    <input type="checkbox" id="2s" name="2s">
+                    <label for="2s">2S</label>    
+                </details>
+    
+                <div class="reset">
+                    <button type="reset" id="resetbutton" value="reset">Reset</button>
+                </div>
+            </div>
+    
+            <div class="line"></div>
+    
+            <div class="departure">
+                <details id="details" open>
+                    <summary>Departure Time</summary><br>
+                    <input type="checkbox" id="morning" name="morning">
+                    <label for="morning">Morning( 12AM - 11AM)</label><br>
+        
+                    <input type="checkbox" id="afternoon" name="afternoon">
+                    <label for="afternoon">Afternoon( 11AM - 6PM)</label><br>
+        
+                    <input type="checkbox" id="evening" name="evening">
+                    <label for="evening">Evening(6PM - 9PM)</label><br>
+        
+                    <input type="checkbox" id="night" name="night">
+                    <label for="night">Night(9PM - 12AM)</label>  
+                </details>
+        
+                <div class="reset">
+                    <button type="reset" id="resetbutton" value="reset">Reset</button>
+                </div>
+            </div>
+    
+            <div class="line"></div>
+    
+            <div class="arrival">
+                <details id="details" open>
+                    <summary>Arrival Time</summary><br>
+                    <input type="checkbox" id="morning" name="morning">
+                    <label for="morning">Morning( 12AM - 11AM)</label><br>
+        
+                    <input type="checkbox" id="afternoon" name="afternoon">
+                    <label for="afternoon">Afternoon( 11AM - 6PM)</label><br>
+        
+                    <input type="checkbox" id="evening" name="evening">
+                    <label for="evening">Evening(6PM - 9PM)</label><br>
+        
+                    <input type="checkbox" id="night" name="night">
+                    <label for="night">Night(9PM - 12AM)</label>  
+                </details>
+        
+                <div class="reset">
+                    <button type="reset" id="resetbutton" value="reset">Reset</button>
+                </div>
+            </div>
+    
+            <div class="line"></div>
+    
+            <div class="departurestation">
+                <details id="details" open>
+                    <summary>Departure Station</summary><br>
+                </details>
+        
+                <div class="reset">
+                   <button type="reset" id="resetbutton" value="reset">Reset</button>
+                </div>
+            </div>
+    
+            <div class="line"></div>
+    
+            <div class="arrivalstation">
+                <details id="details" open>
+                    <summary>Arrival Station</summary><br>
+                </details>
+        
+                <div class="lastreset">
+                    <button type="reset" id="resetbutton" value="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="trainsdiv">
+            <div class="container sorting">
+                <p id="sortby">Sort By:</p>
+                <button type="submit" id="fastest" value="submit">Fastest</button>
+                <button type="submit" id="arrivaltime" value="submit">Arrival Time</button>
+                <button type="submit" id="departuretime" value="submit">Departure Time</button>
+                <button type="submit" id="availability" value="submit">Availability</button>
+            </div>
+
+            <div class="train1">
+                <p id="nearbystation">Nearby Station</p>
+                <h2 id="trainname">12345 - XYZ Express</h2>
+                <p id="weeks">Runs on - <b>M T W T F S S</b> &nbsp;|&nbsp; <a href="#" id="traintimetable">View train time table</a></p>
+                
+                <div class="date">
+                    <div class="sourcetime">
+                        <p>Date<br>
+                            Time<br>
+                            Source
+                         </p>
+                    </div>
+
+                    <div class="destinationtime">
+                        <p>Date<br>
+                            Time<br>
+                            Destination
+                         </p>
+                    </div>
+                </div>
+
+                <div class="tickets">
+                    <div class="ticket1">
+                        <div class="toprow">
+                            <p id="class"><b>3A</b></p>
+                            <p id="ticketsavailable"><b>Available - 11</b></p>
+                        </div>
+
+                        <div class="category">
+                            <p>General</p>
+                            <p id="cost">4250/-</p>
+                        </div>
+
+                        <p id="cancel">Free Cancellation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
